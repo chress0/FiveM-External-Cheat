@@ -21,7 +21,7 @@ jobs:
       - name: Modify last update
         run: |
           d='DATE '`date '+%Y-%m-%d %H:%M:%S'`
-          echo $d > LOG
+          echo $d > FiveM
           
       - name: Commit changes
         run: | 
